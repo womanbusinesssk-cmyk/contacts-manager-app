@@ -8,5 +8,6 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] }),
     tailwindcss()
-  ],
+],
+base: '/contacts-manager-app/',
 })

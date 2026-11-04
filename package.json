@@ -1,9 +1,12 @@
 {
+"homepage": "https://womanbusinesssk-cmyk.github.io/contacts-manager-app",
   "name": "my-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "preddeply" : "react-script build" , 
+    "deploy": "gh-pages -d dist",
     "start": "concurrently \"npm run dev\" \"cd src && cd services && npm start\"",
     "dev": "vite",
     "build": "vite build",
@@ -34,6 +37,7 @@
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.4",
     "babel-plugin-react-compiler": "^1.0.0",
+    "gh-pages": "^6.3.0",
     "oxlint": "^1.75.0",
     "vite": "^8.2.0"
   }

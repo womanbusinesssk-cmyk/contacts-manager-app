@@ -11,7 +11,7 @@ import "../public/js/allfont.js";
 import {BrowserRouter  } from "react-router";
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/contacts-manager-app">
     <App />
     </BrowserRouter>
   </StrictMode>,
