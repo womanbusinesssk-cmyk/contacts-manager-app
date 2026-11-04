@@ -1,0 +1,49 @@
+{
+  "countacts": [
+    {
+      "name": "مهدی",
+      "family": "شمس",
+      "tel": "09154949923",
+      "image": "https://storage.sabzlearn.ir/app/static/users/189306/avatars/gravatar.png",
+      "job": "برنامه نویس",
+      "gmail": "amirhossiensalari@gmail.com",
+      "group": "3",
+      "id": 1,
+      "groups": "3"
+    },
+    {
+      "name": "مهدی",
+      "family": "شمس",
+      "tel": "09154949923",
+      "image": "https://storage.sabzlearn.ir/app/static/users/189306/avatars/gravatar.png",
+      "job": "برنامه نویس",
+      "gmail": "amirhossiensalari@gmail.com",
+      "group": "3",
+      "id": 1,
+      "groups": "3"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "همکار"
+    },
+    {
+      "id": "2",
+      "name": "دوست "
+    },
+    {
+      "id": "3",
+      "name": "فامیل "
+    },
+    {
+      "id": "4",
+      "name": "سرویس "
+    },
+    {
+      "id": "5",
+      "name": "آشنا "
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,135 @@
+
+
+
+
+@font-face {
+    font-family: 'vazir-test';
+    src: url('/webfonts/Vazir.eot');
+    src: url('/webfonts/Vazir.eot?#iefix') format('embedded-opentype'),
+         url('/webfonts/Vazir.woff2') format('woff2'),
+         url('/webfonts/Vazir.woff') format('woff'),
+         url('/webfonts/Vazir.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir-Black';
+    src: url('/public/webfonts/Vazir-Black.eot');
+    src: url('/public/webfonts/Vazir-Black.eot?#iefix') format('embedded-opentype'),
+        url('/public/webfonts/Vazir-Black.woff2') format('woff2'),
+        url('/public/webfonts/Vazir-Black.woff') format('woff'),
+        url('/public/webfonts/Vazir-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Vazir-Bold';
+    src: url('/webfonts/Vazir-Bold.eot');
+    src: url('/webfonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/webfonts/Vazir-Bold.woff2') format('woff2'),
+        url('/webfonts/Vazir-Bold.woff') format('woff'),
+        url('/webfonts/Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Vazir-Medium';
+    src: url('/webfonts/Vazir-Medium.eot');
+    src: url('/webfonts/Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/webfonts/Vazir-Medium.woff2') format('woff2'),
+        url('/webfonts/Vazir-Medium.woff') format('woff'),
+        url('/webfonts/Vazir-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir-Light';
+    src: url('/webfonts/Vazir-Light.eot');
+    src: url('/webfonts/Vazir-Light.eot?#iefix') format('embedded-opentype'),
+        url('/webfonts/Vazir-Light.woff2') format('woff2'),
+        url('/webfonts/Vazir-Light.woff') format('woff'),
+        url('/webfonts/Vazir-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vazir-Thin';
+    src: url('/public/webfonts/Vazir-Thin.eot');
+    src: url('/webfonts/Vazir-Thin.eot?#iefix') format('embedded-opentype'),
+        url('/webfonts/Vazir-Thin.woff2') format('woff2'),
+        url('/webfonts/Vazir-Thin.woff') format('woff'),
+        url('/webfonts/Vazir-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitcount Prop Single';
+    src: url('/public/webfonts/BitcountPropSingle-Regular.eot');
+    src: url('BitcountPropSingle-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BitcountPropSingle-Regular.woff2') format('woff2'),
+        url('BitcountPropSingle-Regular.woff') format('woff'),
+        url('BitcountPropSingle-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="search"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder{
+    color: #f8f8f4 !important; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="number"]{
+    color: #f8f8f4 !important; 
+    border: 3px solid  #2979FF;
+
+
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="search"]:hover,
+input[type="number"]:hover{
+    color: #f8f8f4 !important; 
+    margin-left: 5px;
+}
+
+
+@theme {
+
+  --font-Bitcount-Prop-Single: "Bitcount Prop Single";
+  --font-vazir-test: "vazir-test", sans-serif;
+  --font-vazir-black: "Vazir-Black";
+  --font-vazir-thin: "Vazir-Thin";
+  --font-vazir-light: "Vazir-Light";
+  --font-vazir-medium: "Vazir-Medium";
+  
+  --color-primary: rgb(58, 12, 192);
+  --color-secondary: #340CC0;
+  --color-dark: #1e293b;
+  --color-bgcolor: #1e3a8a;
+  
+}
+
+
+@import "tailwindcss";
